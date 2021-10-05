@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- External CSS Links here -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/MobNav.css">
+    <link rel="stylesheet" href="CSS/pagelist.css">
+    <link rel="stylesheet" href="CSS/productlist.css">
+    <link rel="stylesheet" href="CSS/addproduct.css">
+    <!-- Font link here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@700&display=swap" rel="stylesheet">
+    <!-- Lato font starts here -->
+    <!-- Montserrat font link starts here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.2/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>BonusMate - Dashboard</title>
+</head>
+
+<body>
+    <div class="Wrapper">
+        <!-- Dashboard row starts here -->
+        <div class='row__Side'>
+            <div class='lg__col'>
+                <div class='lg__sm__col'>
+                    <!-- Text of dashboard starts here -->
+                    <div class="Brand__Logo">
+                        <div class="logo__text">
+                            <p><span><img id="Logo__mate" src="./Assets/Group 4.png" alt=""></span>
+                                <span>BonusMate</span>
+                            </p>
+                        </div>
+                        <hr class="bottom__hr">
+                    </div>
+                    <!-- listed logo starts here -->
+                    <div class="listed__logo">
+                        <div class="inside__list">
+                            <li>
+                                <a href="index.html" class="undered">
+                                    <p><span><svg style="width: 27px;" xmlns="http://www.w3.org/2000/svg"
+                                                class="ionicon" viewBox="0 0 512 512">
+                                                <title>Home</title>
+                                                <path
+                                                    d="M80 212v236a16 16 0 0016 16h96V328a24 24 0 0124-24h80a24 24 0 0124 24v136h96a16 16 0 0016-16V212"
+                                                    fill="none" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="32" />
+                                                <path
+                                                    d="M480 256L266.89 52c-5-5.28-16.69-5.34-21.78 0L32 256M400 179V64h-48v69"
+                                                    fill="none" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="32" />
+                                            </svg></span>
+                                        <span>Dashboard</span>
+                                    </p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="inside__list__two">
+                            <li>
+                                <a href="CreatePage.html" class="undered">
+                                    <p><span><svg style="width: 30px;" xmlns="http://www.w3.org/2000/svg"
+                                                class="ionicon" viewBox="0 0 512 512">
+                                                <title>Create</title>
+                                                <path
+                                                    d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48"
+                                                    fill="none" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="32" />
+                                                <path
+                                                    d="M459.94 53.25a16.06 16.06 0 00-23.22-.56L424.35 65a8 8 0 000 11.31l11.34 11.32a8 8 0 0011.34 0l12.06-12c6.1-6.09 6.67-16.01.85-22.38zM399.34 90L218.82 270.2a9 9 0 00-2.31 3.93L208.16 299a3.91 3.91 0 004.86 4.86l24.85-8.35a9 9 0 003.93-2.31L422 112.66a9 9 0 000-12.66l-9.95-10a9 9 0 00-12.71 0z" />
+                                            </svg></span>
+                                        <span>Create Page</span>
+                                    </p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="page__list">
+                            <li>
+                                <a href="pagelist.html" class="undered">
+                                    <p><span><svg style="width: 30px;" xmlns="http://www.w3.org/2000/svg"
+                                                class="ionicon" viewBox="0 0 512 512">
+                                                <title>Clipboard</title>
+                                                <path
+                                                    d="M336 64h32a48 48 0 0148 48v320a48 48 0 01-48 48H144a48 48 0 01-48-48V112a48 48 0 0148-48h32"
+                                                    fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                    stroke-width="32" />
+                                                <rect x="176" y="32" width="160" height="64" rx="26.13" ry="26.13"
+                                                    fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                    stroke-width="32" />
+                                            </svg></span>
+                                        <span>Page List</span>
+                                    </p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="list__Product">
+                            <li>
+                                <a href="Add product.html" class="undered">
+                                    <p><span><svg style="width: 30px;" xmlns="http://www.w3.org/2000/svg"
+                                                class="ionicon" viewBox="0 0 512 512">
+                                                <title>Bag Add</title>
+                                                <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="32"
+                                                    d="M256 256v128M320 320H192M80 176a16 16 0 00-16 16v216c0 30.24 25.76 56 56 56h272c30.24 0 56-24.51 56-54.75V192a16 16 0 00-16-16zM160 176v-32a96 96 0 0196-96h0a96 96 0 0196 96v32" />
+                                            </svg></span>
+                                        <span>Add Product</span>
+                                    </p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="Product__list">
+                            <li>
+                                <a href="Productlist.html" class="undered">
+                                    <p><span><svg style="width: 30px;" xmlns="http://www.w3.org/2000/svg"
+                                                class="ionicon" viewBox="0 0 512 512">
+                                                <title>List</title>
+                                                <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="32"
+                                                    d="M160 144h288M160 256h288M160 368h288" />
+                                                <circle cx="80" cy="144" r="16" fill="none" stroke="currentColor"
+                                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                                                <circle cx="80" cy="256" r="16" fill="none" stroke="currentColor"
+                                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                                                <circle cx="80" cy="368" r="16" fill="none" stroke="currentColor"
+                                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                                            </svg></span>
+                                        <span>Product List</span>
+                                    </p>
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                    <hr class="bottom__hr">
+                    <div class="bottom__list">
+                        <div class="Stn__list">
+                            <li>
+                                <a href="#" class="undered">
+                                    <p><span><svg style="width: 30px;" xmlns="http://www.w3.org/2000/svg"
+                                                class="ionicon" viewBox="0 0 512 512">
+                                                <title>Settings</title>
+                                                <path
+                                                    d="M262.29 192.31a64 64 0 1057.4 57.4 64.13 64.13 0 00-57.4-57.4zM416.39 256a154.34 154.34 0 01-1.53 20.79l45.21 35.46a10.81 10.81 0 012.45 13.75l-42.77 74a10.81 10.81 0 01-13.14 4.59l-44.9-18.08a16.11 16.11 0 00-15.17 1.75A164.48 164.48 0 01325 400.8a15.94 15.94 0 00-8.82 12.14l-6.73 47.89a11.08 11.08 0 01-10.68 9.17h-85.54a11.11 11.11 0 01-10.69-8.87l-6.72-47.82a16.07 16.07 0 00-9-12.22 155.3 155.3 0 01-21.46-12.57 16 16 0 00-15.11-1.71l-44.89 18.07a10.81 10.81 0 01-13.14-4.58l-42.77-74a10.8 10.8 0 012.45-13.75l38.21-30a16.05 16.05 0 006-14.08c-.36-4.17-.58-8.33-.58-12.5s.21-8.27.58-12.35a16 16 0 00-6.07-13.94l-38.19-30A10.81 10.81 0 0149.48 186l42.77-74a10.81 10.81 0 0113.14-4.59l44.9 18.08a16.11 16.11 0 0015.17-1.75A164.48 164.48 0 01187 111.2a15.94 15.94 0 008.82-12.14l6.73-47.89A11.08 11.08 0 01213.23 42h85.54a11.11 11.11 0 0110.69 8.87l6.72 47.82a16.07 16.07 0 009 12.22 155.3 155.3 0 0121.46 12.57 16 16 0 0015.11 1.71l44.89-18.07a10.81 10.81 0 0113.14 4.58l42.77 74a10.8 10.8 0 01-2.45 13.75l-38.21 30a16.05 16.05 0 00-6.05 14.08c.33 4.14.55 8.3.55 12.47z"
+                                                    fill="none" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="32" />
+                                            </svg></span>
+                                        <span>Settings</span>
+                                    </p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="log__list">
+                            <li>
+                                <a href="#" class="undered">
+                                    <p><span><svg style="width: 30px;" xmlns="http://www.w3.org/2000/svg"
+                                                class="ionicon" viewBox="0 0 512 512">
+                                                <title>Log Out</title>
+                                                <path
+                                                    d="M304 336v40a40 40 0 01-40 40H104a40 40 0 01-40-40V136a40 40 0 0140-40h152c22.09 0 48 17.91 48 40v40M368 336l80-80-80-80M176 256h256"
+                                                    fill="none" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="32" />
+                                            </svg></span>
+                                        <span>Logout</span>
+                                    </p>
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="rect">
+                        <div class="img__rect">
+                            <div class="img__rectangle">
+                                <img src="./Assets/Ellipse 2.png" alt="">
+                                <div class="rect__text">
+                                    <p>Upgrade to PRO</p>
+                                    <div class="rectangle__text">
+                                        <p>One year support,
+                                            monthly updates for uo
+                                            to other team members.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hr__bl">
+                    <!-- Img------------------- -->
+                    <div class="dl__img">
+                        <img src="./Assets/Ellipse 3.png" alt="">
+                        <p>Richard S. <br> <span>Tokyo, Japan</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- mobile nav -->
+            <header>
+                <div id="menu-toggle">
+                    <img src="./Assets/menu.png" width=20 height=20 alt="Menu"></img>
+                </div>
+
+                <nav id="menu">
+                    <div class="Brand__Logo">
+                        <div class="logo__text">
+                            <p><span><img id="Logo__mate" src="./Assets/Group 4.png" alt=""></span>
+                                <span>BonusMate</span>
+                            </p>
+                        </div>
+                        <hr class="bottom__hr">
+                    </div>
+                    <div class="Nav__menus">
+                        <a href="">
+                            <div class="Nav__one">
+                                <p><span><svg style="width: 27px;" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                                            viewBox="0 0 512 512">
+                                            <title>Home</title>
+                                            <path
+                                                d="M80 212v236a16 16 0 0016 16h96V328a24 24 0 0124-24h80a24 24 0 0124 24v136h96a16 16 0 0016-16V212"
+                                                fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="32" />
+                                            <path
+                                                d="M480 256L266.89 52c-5-5.28-16.69-5.34-21.78 0L32 256M400 179V64h-48v69"
+                                                fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="32" />
+                                        </svg></span>
+                                    <span>Dashboard</span>
+                                </p>
+                            </div>
+                        </a>
+                        <a href="CreatePage.html">
+                            <div class="Nav__one__two">
+                                <p><span><svg style="width: 30px;" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                                            viewBox="0 0 512 512">
+                                            <title>Create</title>
+                                            <path
+                                                d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48"
+                                                fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="32" />
+                                            <path
+                                                d="M459.94 53.25a16.06 16.06 0 00-23.22-.56L424.35 65a8 8 0 000 11.31l11.34 11.32a8 8 0 0011.34 0l12.06-12c6.1-6.09 6.67-16.01.85-22.38zM399.34 90L218.82 270.2a9 9 0 00-2.31 3.93L208.16 299a3.91 3.91 0 004.86 4.86l24.85-8.35a9 9 0 003.93-2.31L422 112.66a9 9 0 000-12.66l-9.95-10a9 9 0 00-12.71 0z" />
+                                        </svg></span> <span>Create
+                                        Page</span>
+                                </p>
+                            </div>
+                        </a>
+                        <a href="pagelist.html">
+                            <div class="Nav__one__three">
+                                <p><span><svg style="width: 30px;" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                                            viewBox="0 0 512 512">
+                                            <title>Clipboard</title>
+                                            <path
+                                                d="M336 64h32a48 48 0 0148 48v320a48 48 0 01-48 48H144a48 48 0 01-48-48V112a48 48 0 0148-48h32"
+                                                fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                stroke-width="32" />
+                                            <rect x="176" y="32" width="160" height="64" rx="26.13" ry="26.13"
+                                                fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                stroke-width="32" />
+                                        </svg></span> <span>Page
+                                        List</span>
+                                </p>
+                            </div>
+                        </a>
+                        <a href="Add product.html">
+                            <div class="Nav__one__four">
+                                <p><span><svg style="width: 30px;" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                                            viewBox="0 0 512 512">
+                                            <title>Bag Add</title>
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="32"
+                                                d="M256 256v128M320 320H192M80 176a16 16 0 00-16 16v216c0 30.24 25.76 56 56 56h272c30.24 0 56-24.51 56-54.75V192a16 16 0 00-16-16zM160 176v-32a96 96 0 0196-96h0a96 96 0 0196 96v32" />
+                                        </svg></span> <span>Add
+                                        Product</span>
+                                </p>
+                            </div>
+                        </a>
+                        <a href="Productlist.html">
+                            <div class="Nav__one__five">
+                                <p><span><svg style="width: 30px;" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                                            viewBox="0 0 512 512">
+                                            <title>List</title>
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="32"
+                                                d="M160 144h288M160 256h288M160 368h288" />
+                                            <circle cx="80" cy="144" r="16" fill="none" stroke="currentColor"
+                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                                            <circle cx="80" cy="256" r="16" fill="none" stroke="currentColor"
+                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                                            <circle cx="80" cy="368" r="16" fill="none" stroke="currentColor"
+                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                                        </svg></span> <span>Product
+                                        List</span>
+                                </p>
+                            </div>
+                        </a>
+                        <hr class="Nav__hr">
+                        <a href="#">
+                            <div class="Nav__one__five">
+                                <p><span><svg style="width: 30px;" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                                            viewBox="0 0 512 512">
+                                            <title>Settings</title>
+                                            <path
+                                                d="M262.29 192.31a64 64 0 1057.4 57.4 64.13 64.13 0 00-57.4-57.4zM416.39 256a154.34 154.34 0 01-1.53 20.79l45.21 35.46a10.81 10.81 0 012.45 13.75l-42.77 74a10.81 10.81 0 01-13.14 4.59l-44.9-18.08a16.11 16.11 0 00-15.17 1.75A164.48 164.48 0 01325 400.8a15.94 15.94 0 00-8.82 12.14l-6.73 47.89a11.08 11.08 0 01-10.68 9.17h-85.54a11.11 11.11 0 01-10.69-8.87l-6.72-47.82a16.07 16.07 0 00-9-12.22 155.3 155.3 0 01-21.46-12.57 16 16 0 00-15.11-1.71l-44.89 18.07a10.81 10.81 0 01-13.14-4.58l-42.77-74a10.8 10.8 0 012.45-13.75l38.21-30a16.05 16.05 0 006-14.08c-.36-4.17-.58-8.33-.58-12.5s.21-8.27.58-12.35a16 16 0 00-6.07-13.94l-38.19-30A10.81 10.81 0 0149.48 186l42.77-74a10.81 10.81 0 0113.14-4.59l44.9 18.08a16.11 16.11 0 0015.17-1.75A164.48 164.48 0 01187 111.2a15.94 15.94 0 008.82-12.14l6.73-47.89A11.08 11.08 0 01213.23 42h85.54a11.11 11.11 0 0110.69 8.87l6.72 47.82a16.07 16.07 0 009 12.22 155.3 155.3 0 0121.46 12.57 16 16 0 0015.11 1.71l44.89-18.07a10.81 10.81 0 0113.14 4.58l42.77 74a10.8 10.8 0 01-2.45 13.75l-38.21 30a16.05 16.05 0 00-6.05 14.08c.33 4.14.55 8.3.55 12.47z"
+                                                fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="32" />
+                                        </svg></span> <span>Settings
+                                    </span>
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="Nav__one__five">
+                                <p><span><svg style="width: 30px;" xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                                            viewBox="0 0 512 512">
+                                            <title>Log Out</title>
+                                            <path
+                                                d="M304 336v40a40 40 0 01-40 40H104a40 40 0 01-40-40V136a40 40 0 0140-40h152c22.09 0 48 17.91 48 40v40M368 336l80-80-80-80M176 256h256"
+                                                fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="32" />
+                                        </svg></span> <span>Logout
+                                    </span>
+                                </p>
+                            </div>
+                        </a>
+                        <div class="nav__elipse">
+                            <img src="./Assets/Rectangle 3.png" alt="">
+                            <div class="nav__bg">
+                                <img src="./Assets/Ellipse 2.png" alt="">
+                                <div class="nav__ellipse__text">
+                                    <p>Upgrade to PRO</p>
+                                </div>
+                                <div class="nav__elp__text">
+                                    <p>One year support, <br>
+                                        monthly updates for uo <br>
+                                        to other team members.</p>
+                                </div>
+                            </div>
+                            <hr class="Nav__hr">
+                        </div>
+                        <div class="grid__row__one">
+                            <div class="Card__col__bg__one">
+                                <img src="./Assets/Ellipse 3.png" alt="">
+                            </div>
+                            <div class="Card__col__bg__one">
+                                <p>Richard S. <br><span>Tokyo, Japan</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!-- mobile nav -->
+
+            <div class='Bg__col'>
+                <div class='right__sm__col'>
+                    <div class="dash">
+                        <p>Add Product</p>
+                    </div>
+                    <!-- table starts here -->
+                    <div class="back__color">
+                        <div class="plan__input">
+                            <div class="input__one">
+                                <p>Title :</p>
+                                <input type="text" name="" id="" placeholder="Enter Title">
+                            </div>
+                            <div class="plan__input__one">
+                                <p>Product URL :</p>
+                                <input type="text" name="" id="" placeholder="Enter Product Url">
+                            </div>
+                            <div class="select__custom">
+                                <div class="box">
+                                    <label>
+                                        <p>Select Product Category :</p>
+                                    </label>
+                                    <select class="wide selectize">
+                                        <option data-display="Select"></option>
+                                        <option value="1"></option>
+                                        <option value="2"></option>
+                                        <option value="3" disabled></option>
+                                        <option value="4"></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="new__input">
+                                <div class="row">
+
+                                    <div class="col">
+                                        <p>Product Value :</p>
+                                        <input type="text" placeholder="Enter Product Value">
+                                    </div>
+
+                                    <div class="col">
+                                        <p>Product Value :</p>
+                                        <a href="#">
+                                            <label class="btn-bs-file btn btn-lg btn-primary">
+                                                Browse
+                                                <input type="file" />
+                                            </label>
+                                        </a>
+                                        <div class="monitor">
+                                            <p>123sep.jpg</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box__div">
+                                <p>Description :</p>
+                                <input type="text">
+                            </div>
+                            <div class="pr__btn">
+                                <a class="btn btn-primary" href="#" role="button">Add</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Dashboard row Ends here -->
+            </div>
+        </div>
+        <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="./JS/Chart.js" type="text/javascript"></script>
+        <script src="./JS/donutchart.js" type="text/javascript"></script>
+        <script src="./JS/RadarChart.js" type="text/javascript"></script>
+        <script src="./JS/Nav.js" type="text/javascript"></script>
+        <script src="./JS/select.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            $(document).ready(function () {
+                $('#example').DataTable();
+            });
+        </script>
+
+        <!-- drop__down -->
+
+        <script src="https://cdn.datatables.net/1.11.2/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.11.2/js/dataTables.bootstrap5.min.js"></script>
+        <script src="./JS/NavLinks.js"></script>
+</body>
+
+</html>
